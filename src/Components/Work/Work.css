@@ -1,0 +1,42 @@
+.work {
+  max-width: 100%;
+}
+.work img {
+  width: 40%;
+}
+
+.work__para {
+  color: #1c1c1c;
+  word-spacing: -0.7px;
+  letter-spacing: -1.5px;
+  line-height: 51px;
+  margin: 7rem auto 8rem auto;
+  width: 65%;
+  font-size: 42px;
+  text-rendering: optimizeLegibility;
+  text-align: center;
+}
+
+.work__line::before {
+  content: url(../../Assets/Svg/home-underline.svg);
+  position: absolute;
+  width: 21%;
+  top: 722px;
+  transform: rotate(1.7deg);
+}
+
+.work__images {
+  display: flex;
+}
+
+.work__statement {
+  color: #1c1c1c;
+  word-spacing: -0.7px;
+  letter-spacing: -1.5px;
+  line-height: 51px;
+  margin: 7rem auto 8rem auto;
+  width: 65%;
+  font-size: 42px;
+  text-rendering: optimizeLegibility;
+  text-align: center;
+}/*# sourceMappingURL=Work.css.map */

@@ -1,0 +1,23 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  background: #f5f4f2;
+}
+@font-face {
+  font-family: "TitilliumWeb";
+  src: local("TitilliumWeb"),
+    url("./Assets/Font/Titillium_Web/TitilliumWeb-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Lalita";
+  src: local("Lalita"),
+    url("./Assets/Font/Lilita_One/LilitaOne-Regular.ttf") format("truetype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Mirza";
+  src: local("Mirza"),
+    url("./Assets/Font/Mirza/Mirza-Regular.ttf") format("truetype");
+}
