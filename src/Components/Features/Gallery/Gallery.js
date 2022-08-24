@@ -39,7 +39,7 @@ const Gallery = () => {
           <div
             className="panel panel2"
             style={{
-              backgroundImage: "url(" + dj + ")",
+              backgroundImage: "url(" + pshots + ")",
             }}
           >
             <p>Serve</p>
@@ -55,7 +55,7 @@ const Gallery = () => {
           <div
             className="panel panel4 "
             style={{
-              backgroundImage: "url(" + pshots + ")",
+              backgroundImage: "url(" + dj + ")",
             }}
           >
             <p className="text">The</p>
