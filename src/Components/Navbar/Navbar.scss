@@ -72,3 +72,26 @@
     }
   }
 }
+
+@media all and (max-width: 480px) {
+  .nav {
+    left: 20px;
+    right: 20px;
+  }
+  .nav__text {
+    margin-right: 0px;
+    gap: 2rem;
+    a {
+      font-size: 15px;
+    }
+  }
+  .nav__logo {
+    img {
+      width: 70px;
+    }
+  }
+  .nav__fixed {
+    left: 20px;
+    right: 20px;
+  }
+}
