@@ -20,8 +20,8 @@
 .work__line::before {
   content: url(../../Assets/Svg/home-underline.svg);
   position: absolute;
-  width: 21%;
-  top: 45.125rem;
+  width: 18.8%;
+  top: 49.525rem;
   transform: rotate(1.7deg);
 }
 
@@ -36,7 +36,7 @@
   line-height: 51px;
   margin: 7rem auto 8rem auto;
   width: 65%;
-  font-size: 42px;
+  font-size: 50px;
   text-rendering: optimizeLegibility;
   text-align: center;
 }
@@ -84,8 +84,18 @@
   .work__line::before {
     content: url(../../Assets/Svg/home-underline.svg);
     position: absolute;
-    width: 28%;
+    width: 25%;
     top: 960px;
     transform: rotate(1.7deg);
+  }
+}
+@media screen and (max-width: 420px) {
+  .work__line::before {
+    content: url(../../Assets/Svg/home-underline.svg);
+    width: 6%;
+    top: 60px;
+    left: 6px;
+    transform: rotate(1.7deg);
+    visibility: hidden;
   }
 }/*# sourceMappingURL=Work.css.map */

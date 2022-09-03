@@ -36,8 +36,8 @@
   left: 0;
   height: 7px;
   width: 100%;
-  border: solid 2px #cb1829;
-  border-color: #cb1829 transparent transparent transparent;
+  border: solid 2.23px #cb1820;
+  border-color: #cb1820 transparent transparent transparent;
   border-radius: 50%;
   -webkit-animation: drawLine 0.9s ease-in-out forwards;
           animation: drawLine 0.9s ease-in-out forwards;

@@ -12,7 +12,7 @@ const Work = () => {
           everybody & serve anybody & don't care about becoming a somebody.
         </p>
         <Gallery></Gallery>
-        <p className="work__statement">
+        <p className="work__statement font-face-Mirza">
           From best events to parties to everything we are on a drive to help
           you create memories of a lifetime.
           <p className="work__bon">- BoN</p>
