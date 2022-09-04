@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 import logo from "../../Assets/Svg/BoN.svg";
+import pink_logo from "../../Assets/Svg/BoN_Pink.svg";
+
 import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
@@ -20,8 +22,8 @@ const Navbar = () => {
       <div
         className={fix ? "nav__fixed font-face-lalita" : "nav font-face-lalita"}
       >
-        <Link className="nav__logo" to="/">
-          <img src={logo} alt="Logo" />
+        <Link className={fix ? "nav__stickyLogo" : "nav__logo"} to="/">
+          <img src={fix ? pink_logo : logo} alt="Logo" />
         </Link>
         <nav className="nav__text">
           <NavLink
@@ -32,21 +34,21 @@ const Navbar = () => {
           >
             Work
           </NavLink>
-          <NavLink
+          {/* <NavLink
             exact="true"
             className="AboutUs"
             activeclassname="active"
             to="/about"
           >
             About Us
-          </NavLink>
+          </NavLink> */}
           <NavLink
             exact="true"
             className="Contact"
             activeclassname="active"
             to="/contact"
           >
-            Contact
+            Contact Us
           </NavLink>
         </nav>
       </div>

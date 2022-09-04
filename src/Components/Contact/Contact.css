@@ -1,1 +1,109 @@
-/*# sourceMappingURL=Contact.css.map */
+.text-zone {
+  margin-top: 5%;
+  color: #252a34;
+  margin-right: auto;
+  margin-left: auto;
+}
+.text-zone h1 {
+  margin-left: 40%;
+  margin-right: auto;
+}
+.text-zone p {
+  margin-left: 36%;
+}
+
+.contact-form {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 20px;
+  color: #252a34;
+}
+.contact-form ul {
+  padding: 0;
+  margin: 0;
+}
+.contact-form ul li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin-bottom: 10px;
+  overflow: hidden;
+  display: block;
+  clear: both;
+  position: relative;
+  -webkit-animation: fadeInUp 2s 2s;
+          animation: fadeInUp 2s 2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.contact-form ul li.half {
+  width: 49%;
+  margin-left: 2%;
+  float: left;
+  clear: none;
+}
+.contact-form ul li.half:first-child {
+  margin-left: 0;
+}
+.contact-form input[type=text],
+.contact-form input[type=email] {
+  width: 100%;
+  border: 0;
+  background: #fff;
+  height: 50px;
+  font-size: 16px;
+  color: #252a34;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.contact-form textarea {
+  width: 100%;
+  border: 0;
+  background: #fff;
+  height: 50px;
+  font-size: 16px;
+  color: #252a34;
+  padding: 20px;
+  box-sizing: border-box;
+  min-height: 250px;
+}
+.contact-form .flat-button {
+  color: #ffd700;
+  font-size: 11px;
+  letter-spacing: 3px;
+  text-decoration: none;
+  padding: 8px 10px;
+  border: 1px solid #ffd700;
+  float: left;
+  border-radius: 4px;
+  background: 0 0;
+  text-transform: uppercase;
+  float: right;
+  text-align: center;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+@media all and (max-width: 480px) {
+  .text-zone {
+    margin-top: 15%;
+    color: #252a34;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .text-zone h1 {
+    margin-left: 27%;
+    margin-right: auto;
+  }
+  .text-zone p {
+    margin-left: 16%;
+  }
+  .contact-form {
+    margin-top: 20px;
+  }
+  .contact-form textarea {
+    width: 100%;
+    min-height: 150px;
+  }
+}/*# sourceMappingURL=Contact.css.map */

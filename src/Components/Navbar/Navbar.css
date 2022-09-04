@@ -50,6 +50,13 @@
   cursor: pointer;
 }
 
+.nav__stickyLogo img {
+  width: 90px;
+}
+.nav__stickyLogo img:hover {
+  cursor: pointer;
+}
+
 .nav__text {
   margin-right: 35px;
   display: flex;

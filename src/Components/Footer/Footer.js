@@ -14,13 +14,10 @@ const Footer = () => {
                   <a href="#">about us</a>
                 </li>
                 <li>
-                  <a href="#">our services</a>
-                </li>
-                <li>
                   <a href="#">privacy policy</a>
                 </li>
                 <li>
-                  <a href="#">affiliate program</a>
+                  <a href="#"> careers</a>
                 </li>
               </ul>
             </div>

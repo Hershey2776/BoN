@@ -56,6 +56,15 @@
   }
 }
 
+.nav__stickyLogo {
+  img {
+    width: 90px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
 .nav__text {
   margin-right: 35px;
   display: flex;

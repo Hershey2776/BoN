@@ -1,6 +1,7 @@
 import React from "react";
 import "./Work.css";
 import Gallery from "../Features/Gallery/Gallery";
+// import line from "../../Assets/Svg/home-underline.svg";
 
 const Work = () => {
   return (
@@ -8,7 +9,7 @@ const Work = () => {
       <div className="work" id="work">
         <p className="work__para font-face-Mirza">
           The best events are thrown by{" "}
-          <span className="work__line">bunch of nobodies</span> who love
+          <span className="work__line">bunch of nobodies </span> who love
           everybody & serve anybody & don't care about becoming a somebody.
         </p>
         <Gallery></Gallery>
